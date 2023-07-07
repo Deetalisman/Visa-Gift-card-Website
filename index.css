@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif; 
+    padding: 0 7%;  
+    box-shadow: 0 10px rgb(99, 94, 94); 
+    position: fixed;
+    background-color: white;
+}
+.top h1{
+    font-size: 45px;
+     color: rgb(56, 56, 179);
+     margin-top: 6px;
+}
+.topr{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.topr p{
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.topr a{
+    color: white;
+    text-decoration: none;
+}
+.topr img{
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    margin-top: 2%;
+}
+.menubar{
+  position: absolute;
+  float: right;
+  margin-top: 5%;
+  margin-left: 70%;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  padding: 10px 0;
+  display: none;
+}
+.mobile{
+    display: block;
+}
+.menubar ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+}
+.menubar ul li:hover{
+    background-color: white;
+    color: black;
+}
+.images img{
+    width: 100%;
+    margin-top: 5%;
+    height: 400px;
+}
+.images p{
+    border: 1px solid darkgrey;
+    padding: 20px;
+    width: 300px;
+    font-size: 30px;
+    position: absolute;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 28%;
+}
+.one{
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 30px;
+    border: 18px solid rgb(231, 230, 230);
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 0;
+}
+
+.onetop{
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+    background-color: cornflowerblue;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.onetop h2{
+       padding: 15px 10px ;
+       background-color:rgb(88, 85, 131);
+       margin-top: 20px;
+       margin-left: 20px;
+       border: 1px solid white;
+       border-top-right-radius: 5px;
+       border-top-left-radius: 5px;
+       color: white;
+       font-weight:100;
+       cursor: pointer;
+}
+.onetop h2:hover{
+      background-color: white;
+      color: black;
+}
+.active2{
+    background-color: white;
+    color: black;
+}
+.tab-contents{
+    margin: 20px 20px;
+    display: none;
+}
+.tab-contents.active{
+    display: block;
+}
+.active{
+    display: block;
+}
+.tab-contents h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.onedownp{
+    font-size: 20px;
+    
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: 20px 10%;
+}
+.gift{
+    width: 40%;
+    margin: 0 2%;
+    color: darkgray;
+}
+.gift p{
+    font-size: 14px;
+    letter-spacing:0.000001cm;
+}
+#card input{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 11px;
+    color: darkgray;
+}
+#date input{
+    width: 60px;
+    height: 50px;
+    margin-top: 11px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#code input{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 11px;
+}
+.cancel{
+    width: 40%;
+    margin: 35px 30%;
+    display: flex;
+    margin-left: 40%;
+    font-size: 20px;
+}
+.cancel p{
+    color: darkgray;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#par{
+    background-color: rgb(88, 85, 131);
+    padding: 10px 10px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size:18px ;
+    cursor: pointer;
+}
+#par:hover{
+    background-color: cornflowerblue;
+}
+.two{
+    margin: 5% 10%;
+    display: flex;
+}
+.cards{
+    width: 80%;
+}
+.cards img{
+       width: 120px;
+       height: 80px;
+       margin: 0;
+}
+.two p{
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.three{
+    margin-top: 5%;
+    background-color: cornflowerblue;
+    padding: 10px 7%;
+    font-family:Arial, Helvetica, sans-serif; 
+
+}
+.www{
+    margin-top: 8%;
+    font-weight: bold;
+}
+.three p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.three span{
+    font-weight: bold;
+}
+
+.cards2{
+    margin-top: 20px;
+    margin-bottom: 4%;
+}
+.cards2 img{
+    height: 130px;
+    width: 200px;
+    margin: 7px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    height: 80px;
+    padding: 25px  100px;
+}
+.contact p{
+    font-size: 30px;
+    padding-left: 2%;
+
+}
+.note{
+    margin: 4% 7%;
+}
+.each{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.each h2{
+    width: 20%;
+}
+.each p{
+    width: 80%;
+    font-size: 19px;
+    font-weight: 500;
+}
+.each span{
+    font-weight: bold;
+}
+.issue{
+    margin-top: 5%;
+}
+.issue p{
+    margin: 0 7%;
+    font-size: 22px;
+    padding-left: 2%;
+      
+}
+.foot{
+    text-align: center;
+    margin-top: 3%;
+    padding: 20px 10%;
+    background-color: dimgrey;
+    padding-bottom: 50px;
+}
+.foot p{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.foot span{
+    color: darkgrey;
+}
+@media screen and (max-width:800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+    }
+       .top{
+        width: 100%;
+        padding: 0 5%;
+       }
+       .topr p{
+        font-size: 9px;
+        padding: 5px 5px;
+        padding-top: 10px;
+        height: 30px;
+        margin-top: 8px;
+        margin-right: 0;
+       }
+       .menubar{
+        margin-left: 60%;
+        margin-top: 9%;
+       }
+       .images img{
+        height: 250px;
+       }
+       .images p{
+        margin-top: 48%;
+        padding: 20px;
+        padding: 20px;
+        width: 200px;
+        font-size: 25px;
+       }
+       .one{
+        width: 100%;
+        margin: 20px 0;
+       }
+       .onetop h2{
+        font-size: 10px;
+        margin-left: 10px;
+       }
+       .tab-link.active{
+        background-color: white;
+        color: black;
+    }
+       
+       .tab-content{
+        margin: 30px 20px;
+       }
+       .onedownp{
+        margin-left: 7px;
+        font-size: 14px;
+       }
+       nav{
+        width: 100%;
+        display: block;
+        margin: 20px 0;
+       }
+       .gift{
+        width: 100%;
+        display: block;
+        margin: 20px;
+       }
+       .gift p{
+        font-size: 15px;
+       }
+       #card input{
+        height: 35px;
+        font-size: 13px;
+       }
+       #date input{
+        height: 33px;
+        font-size: 13px;
+       }
+       #code input{
+        height: 35px;
+        font-size: 13px;
+
+       }
+       .cancel{
+        width: 100%;
+        margin: 20px 15%;
+       }
+       #par{
+        width: 120px;
+        font-size: 15px;
+        padding: 11px 8px;
+       }
+       .two{
+        width: 95%;
+        margin: 0 20px ;
+        display: block;
+       }
+       .cards{
+        width: 100%;
+        margin: 0 ;
+        display:inline-block;
+       }
+       .cards img{
+        width: 90px;
+        height: 60px;
+        margin: 0;
+        border-radius: 4px;
+       }
+       .two p{
+        font-size: 12px;
+        width: 140px;
+        height: 30px;
+        padding: 6px 7px;
+        padding-top: 8px;
+          text-align: center;
+          margin: 10px auto;
+       }
+       .three p{
+        font-size: 18px;
+       }
+       .cards2{
+        width: 100%;
+        margin: 20px 0;
+       }
+       .cards2 img{
+        width: 140px;
+        height: 90px;
+        margin: 20px 15px;
+        border-radius: 5px;
+       }
+       .contact{
+        height: 50px;
+        padding: 8px;
+        font-size: 15px;
+       }
+       .each{
+        display: block;
+       }
+       .each h2{
+        width: 80%;
+    }
+    .each p{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 25px;
+        }
+      .issue p{
+        font-size: 14px;
+
+      }
+      .foot{
+        background-color: rgb(63, 59, 59);
+      }
+      .foot p{
+        display: block;
+      }
+      .menubar{
+        margin-top: 15%;
+        width: 100%;
+        margin-left: 0;
+      }
+}
+
+
